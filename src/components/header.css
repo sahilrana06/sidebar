@@ -1,0 +1,126 @@
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-bottom: 1px solid #E6EBF3;
+}
+
+.header-left .search-bar {
+    background-color: #FAFAFA;
+    border: 1px solid #E6EBF3;
+    color: #3C3C43;
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin-left: 110px;
+}
+.search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    padding-left: 10px;
+    color: #3C3C43;
+}
+
+
+
+.header-right nav a {
+    color: #1B1B1B;
+    margin: 0 15px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.header-right nav a:hover {
+    color: #0038A8;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}  */
+
+.header {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E6EBF3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left .logo {
+    margin-right: 20px;
+}
+
+.search-bar {
+    margin-left: 110px;
+    display: flex;
+    align-items: center;
+    background: #FAFAFA;
+    border: 1px solid #E6EBF3;
+    border-radius: 4px;
+    padding: 5px 10px;
+    height: 20px; /* Adjust height as needed */
+}
+
+.search-bar .search-logo {
+    margin-right: 10px;
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    padding-left: 5px;
+    height: 100%; /* Ensure input takes full height of the container */
+    color: #3C3C43;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-right nav a {
+    color: #1B1B1B;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.header-right nav a:hover {
+    color: #0038A8;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    color: #1B1B1B;
+}
+
+.user-info .avatar {
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 40px; /* Adjust size as needed */
+    width: 40px; /* Adjust size as needed */
+}

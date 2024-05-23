@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #FBFEFF;
+  font-family: 'Outfit', sans-serif;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.main-content {
+  padding: 20px;
+  flex: 1;
+}
